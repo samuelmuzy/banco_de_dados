@@ -1,4 +1,4 @@
-select * from alunos;
+SELECT * FROM alunos;
 
 update alunos set primeiro_nome = 'Flavía Aparecida' 
 	where id_alunos = 4;
@@ -7,18 +7,18 @@ select primeiro_nome as "nome do aluno" from alunos;
 
 /*exercicios 3*/
 
-select * from diciplina;
+SELECT * FROM diciplina;
 
-select primeiro_nome as "Nome",sobrenome as "Sobrenome",data_nacimento as "Data de Nacimento" 
-	from alunos;
+SELECT primeiro_nome AS "Nome",sobrenome AS "Sobrenome",data_nacimento AS "Data de Nacimento" 
+	FROM alunos;
 
-select id_aluno from alunos_diciplina where id_diciplina = 1;
+SELECT id_aluno FROM alunos_diciplina WHERE id_diciplina = 1;
 
-select * from alunos order by data_nacimento asc
+SELECT * FROM alunos ORDER BY data_nacimento ASC
 
-select nome as "Nome da Diciplina",tipo_diciplina as "Unidade de ensino" 
-	from diciplina 
-		order by tipo_diciplina desc;
+SELECT nome AS "Nome da Diciplina",tipo_diciplina AS "Unidade de ensino" 
+	FROM diciplina 
+		ORDER BY tipo_diciplina DESC;
 
 SELECT primeiro_nome as "Primeiro Nome do Aluno", 
 	sobrenome as "Sobrenome Do Aluno", 
