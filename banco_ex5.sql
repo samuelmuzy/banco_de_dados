@@ -53,6 +53,7 @@ UPDATE alunos_diciplina SET P1 = 17.0,P2 = 14.5,FALTAS = 10 WHERE id_aluno = 5 a
 
 UPDATE alunos_diciplina SET P1 = 38.1,P2 = 10.5,FALTAS = 7 WHERE id_aluno = 5 and id_diciplina = 8;
 
+
 UPDATE alunos_diciplina SET P1 = 49.0,P2 = 35.5,FALTAS = 14 WHERE id_aluno = 6 and id_diciplina = 2;
 
 UPDATE alunos_diciplina SET P1 = 18.8,P2 = 25.7,FALTAS = 2 WHERE id_aluno = 6 and id_diciplina = 3;
